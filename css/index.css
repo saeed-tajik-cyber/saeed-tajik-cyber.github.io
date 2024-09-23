@@ -1,0 +1,16 @@
+p{
+  font-family: "Lora", serif;
+
+}
+ .custom-bg{
+    background-image: url("../image/5.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 100vh;  
+}
+.estyle{
+  width: 450px;
+}
+h3{
+  font-family: "Jacques Francois Shadow", serif;
+}
