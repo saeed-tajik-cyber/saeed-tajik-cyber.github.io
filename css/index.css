@@ -1,6 +1,5 @@
 p{
-  font-family: "Lora", serif;
-
+  font-family: "Poppins", sans-serif;
 }
  .custom-bg{
     background-image: url("../image/5.jpg");
@@ -13,4 +12,8 @@ p{
 }
 h3{
   font-family: "Jacques Francois Shadow", serif;
+}
+.image-size{
+  width:650px;
+margin-left: -132px;
 }
