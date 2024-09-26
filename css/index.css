@@ -15,8 +15,10 @@ h3{
 }
 .image-size{
   width:650px;
-margin-left: -132px;
 }
 .photo-size{
   height: 350px;
+}
+.size-carusel{
+  width: 100%;
 }
