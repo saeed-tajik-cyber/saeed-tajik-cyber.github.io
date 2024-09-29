@@ -3,23 +3,20 @@
   background-image: url("../image/5.jpg");
   background-size: cover;
   background-position:center;
-  height: 100vh;  
+  height: 100vh;
 }
 .estyle{
-  width: 450px;
+  height: 100px;
 }
 h3{
   font-family: "Jacques Francois Shadow", serif;
-}
-.image-size{
-  width:650px;
-}
-.photo-size{
-  height: 350px;
 }
 .size-carusel{
   width: 100%;
 }
 p{
   font-family: "Poppins", sans-serif;
+}
+.nav-size{
+  height: 80px;
 }
