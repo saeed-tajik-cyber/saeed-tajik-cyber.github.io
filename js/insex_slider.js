@@ -5,18 +5,21 @@ function showSlide(index) {
     slides.forEach(slide => slide.classList.remove('active'));
     slides[index].classList.add('active');
 }
-
+ 
 document.getElementById('prevBtn').addEventListener('click', () => {
     slideIndex = (slideIndex - 1 + slides.length) % slides.length;
     showSlide(slideIndex);
 });
-
+function nextSlide() {
+    slideIndex = (slideIndex + 1) % slides.length;
+    showSlide(slideIndex);
+}
 document.getElementById('nextBtn').addEventListener('click', () => {
     slideIndex = (slideIndex + 1) % slides.length;
     showSlide(slideIndex);
 });
 showSlide(slideIndex);
-
+const slideInterval = setInterval(nextSlide, 4000);
 document.addEventListener('DOMContentLoaded', () => {
     const slides1 = document.querySelectorAll('.mini_slider .slide');
     const buttons = document.querySelectorAll('.navigation button');
